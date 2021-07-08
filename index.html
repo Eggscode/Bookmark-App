@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookmark</title>
+</head>
+<body onload="fetchBookmarks()">
+    <div class="container">
+        <h4>Bookmaker</h4>
+        <div class="add">
+            <h3>Bookmark Your Favourite Site</h3>
+            <form id="myForm">
+                <div class="form-group">
+                    <label for="">Site Name</label>
+                    <input type="text" id="siteName" placeholder="Website Name">
+                </div>
+                <div>
+                    <label for="">Site URL</label>
+                    <input type="text" id="siteUrl" placeholder="Website URL">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="bookmarksResult"></div>
+        <p>&copy;2021 designed by John Nkereuwem</p>
+    </div>
+
+    
+    
+    
+
+    <script src="/main.js"></script>
+</body>
+</html>
